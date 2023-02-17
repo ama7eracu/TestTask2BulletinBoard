@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace BulletinBoard.Application.Announcement.Commands;
+namespace BulletinBoard.Application.Announcement.Commands.CreateAnnouncement;
 
 public class CreateAnnouncementCommand:IRequest<Guid>
 {

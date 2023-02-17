@@ -1,7 +1,7 @@
 using BulletinBoard.Application.Interfaces;
 using MediatR;
 
-namespace BulletinBoard.Application.Announcement.Commands;
+namespace BulletinBoard.Application.Announcement.Commands.CreateAnnouncement;
 
 public class CreateAnnouncementCommandHandler:IRequestHandler<CreateAnnouncementCommand,Guid>
 {

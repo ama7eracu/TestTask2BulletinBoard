@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulletinBoard.Application", "BulletinBoard.Application", "{142EFC9E-BFEB-40B2-87AB-CEF9053402D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulletinBoard.Domain", "BulletinBoard.Domain", "{125E502E-A832-452A-BC56-4B6B6B167E6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulletinBoard.Persistence", "BulletinBoard.Persistence", "{1915849B-0261-444D-AB93-10876534EC39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BulletinBoard.WebApi", "BulletinBoard.WebApi", "{4974EAFC-DA81-4859-BAD2-CC4E6DC55A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletinBoard.Domain", "BulletinBoard.Domain\BulletinBoard.Domain.csproj", "{15522913-866A-4898-8B05-C4F9A5AD269B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulletinBoard.Application", "BulletinBoard.Application\BulletinBoard.Application.csproj", "{CAC03F36-41A7-45C7-A6EE-B3D64EFE2776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15522913-866A-4898-8B05-C4F9A5AD269B} = {125E502E-A832-452A-BC56-4B6B6B167E6D}
+		{CAC03F36-41A7-45C7-A6EE-B3D64EFE2776} = {142EFC9E-BFEB-40B2-87AB-CEF9053402D5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15522913-866A-4898-8B05-C4F9A5AD269B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15522913-866A-4898-8B05-C4F9A5AD269B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15522913-866A-4898-8B05-C4F9A5AD269B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15522913-866A-4898-8B05-C4F9A5AD269B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC03F36-41A7-45C7-A6EE-B3D64EFE2776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC03F36-41A7-45C7-A6EE-B3D64EFE2776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC03F36-41A7-45C7-A6EE-B3D64EFE2776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC03F36-41A7-45C7-A6EE-B3D64EFE2776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
